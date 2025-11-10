@@ -12,17 +12,17 @@ trail
    
   -  "predeploy": "npm run build",
   -  "deploy": "gh-pages -d dist",
-  - 
+    
 5) In the vite.config.js file add this line before plugins: [react()],
 
   -   base: "/REPO_NAME_ONLY", (not link)
     
 6) in terminal again
    
-   - git init
-   - git add .
-   - git commit -m "first commit"
-   - git branch -M main
+   >  git init
+   >  git add .
+   >  git commit -m "first commit"
+   >  git branch -M main
      
 7)
 
