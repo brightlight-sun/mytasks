@@ -22,9 +22,12 @@ example: this repo --> https://brightlight-sun.github.io/mytasks/
 7) 
 
    > git init
+   >                                    
    > git add .
+   >                                              
    > git commit -m "first commit"
-   > git branch -M main
+   >                                          
+   > git branch -M main                                               
      
 9)
 
