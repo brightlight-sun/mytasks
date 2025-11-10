@@ -5,10 +5,10 @@ example: this repo --> https://brightlight-sun.github.io/mytasks/
 
 1) create git repo in github
 2) open react app in vs code terminal
-3) in terminal
+3) 
 
    > npm install gh-pages --save-dev
-    
+     
 4) In the package.json file in react app add these lines before "build": "vite build",
    
   -  "predeploy": "npm run build",
@@ -18,18 +18,19 @@ example: this repo --> https://brightlight-sun.github.io/mytasks/
 
   -   base: "/REPO_NAME_ONLY", (not link)
     
-6) in terminal again
+6) open terminal again
+7) 
    
    >  git init
    >  git add .
    >  git commit -m "first commit"
    >  git branch -M main
      
-7)
+8)
 
     > git remote add origin https://github.com/<username>/<rep Name>.git
 
-8)   
+9)   
 
     > npm run deploy
     (published)
