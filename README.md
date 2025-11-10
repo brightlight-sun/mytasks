@@ -20,17 +20,17 @@ example: this repo --> https://brightlight-sun.github.io/mytasks/
     
 6) open terminal again
 7) 
-   
-   >  git init
-   >  git add .
-   >  git commit -m "first commit"
-   >  git branch -M main
+
+   > git init
+   > git add .
+   > git commit -m "first commit"
+   > git branch -M main
      
-8)
+9)
 
     > git remote add origin https://github.com/<username>/<rep Name>.git
 
-9)   
+10)   
 
     > npm run deploy
     (published)
