@@ -1,6 +1,6 @@
 # mytasks
 trail
-# steps---
+# steps to deploy a react app on github pages
 
 1) create git repo in github
 2) open react app in vs code terminal
