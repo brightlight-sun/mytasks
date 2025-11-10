@@ -19,7 +19,9 @@ example: this repo --> https://brightlight-sun.github.io/mytasks/
   -   base: "/REPO_NAME_ONLY", (not link)
     
 6) open terminal again
+
 7)
+
     > git init
     >                                    
     > git add .
