@@ -6,8 +6,8 @@ example: this repo --> https://brightlight-sun.github.io/mytasks/
 1) create git repo in github
 2) open react app in vs code terminal
 3) in terminal
-   
-    > npm install gh-pages --save-dev
+
+   > npm install gh-pages --save-dev
     
 4) In the package.json file in react app add these lines before "build": "vite build",
    
