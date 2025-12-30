@@ -1,0 +1,8 @@
+bootstrap
+react
+react-dom
+react-router
+react-router-dom
+react-toastify
+
+# " npm install "
