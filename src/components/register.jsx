@@ -1,9 +1,8 @@
 import { useState } from "react";
 import { useNavigate } from "react-router";
 import {toast} from "react-toastify"
-import { registerUser, findUserByEmail } from "../services/Users";
+import { registerUser, findUserByEmail } from "../services/users";
 import { Link } from "react-router";
-// import { registerUser } from "../services/users";
 
 function Register()
 {

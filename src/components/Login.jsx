@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import { Link, useNavigate } from "react-router";
 import { toast } from "react-toastify";
-import { findUserByCredentials } from "../services/Users";
+import { findUserByCredentials } from "../services/users";
 import { UserContext } from "../App";
 
 
