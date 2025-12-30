@@ -4,7 +4,7 @@
 // import './App.css'
 
 import Login from './components/Login'
-import Register from './components/register'
+import Register from './components/Register'
 import { Route, Routes } from 'react-router-dom'
 import { createContext, useState } from 'react'
 // import { UserContext } from './App';
@@ -19,7 +19,7 @@ function App() {
     <h1>MyTasks</h1>
     <UserContext.Provider value={{user, setUser}}>
     <Routes>
-      <Route index element={<Login />} />
+      <Route path="/" element={<Login />} />
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
       <Route path="/user" element={<UserLayout/>} />
